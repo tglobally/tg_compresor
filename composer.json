@@ -1,0 +1,25 @@
+{
+    "name": "tglobally/compresor",
+    "description": "Clase para controlar compresor",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "gamboamartin\\compresor\\": "src/",
+            "config\\": "config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tglobally",
+            "email": "repositorio@tglobally.com"
+        }
+    ],
+    "require": {
+        "php": " >=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "gamboa.martin/compresor": "^2.0.0"
+    }
+}
